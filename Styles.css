@@ -3,7 +3,7 @@
     margin-left: 6px;
     width: 10rem;
     height: 2rem;
-    animation: slide 0.5s;
+    animation: slide 0.7s;
 }
 .maindiv{
     background-size: cover;
@@ -12,6 +12,10 @@
     display: flex;
     background-color: rgb(255, 128, 0);
 
+}
+.body{
+    height: 25%;
+    background-color: rgb(248, 135, 23);
 }
 .testing{
     background-size: cover;
