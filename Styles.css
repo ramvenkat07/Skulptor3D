@@ -5,7 +5,7 @@
     height: 2rem;
     animation: slide 0.5s;
 }
-div{
+.maindiv{
     margin: 0;
     height: 35px;
     display: flex;
