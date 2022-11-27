@@ -1,0 +1,58 @@
+#Image{
+    margin-top: 2px;
+    margin-left: 6px;
+    width: 10rem;
+    height: 2rem;
+    animation: slide 0.5s;
+}
+div{
+    margin: 0;
+    height: 35px;
+    display: flex;
+    background-color: rgb(255, 128, 0);
+
+}
+.Signup{
+position: relative;
+bottom: 3px;
+    background-color: rgb(216, 102, 3);
+    padding: 4px 0 4px 0;
+}
+.Signup:hover{
+
+    background-color: rgb(177, 84, 4);
+}
+
+.Details ul{
+    position: absolute;
+    top: 8px;
+    margin: 0;
+    padding-left: 49%;
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+
+}
+.Details ul li:hover{
+    scale: 105%;
+}
+
+.Details ul li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@keyframes slide{
+    0%{
+        opacity: 0%;
+        transform:translateY(-100%);
+    }
+    100%{
+      transform: translatey(0%);
+    }
+}
+body{
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+}
