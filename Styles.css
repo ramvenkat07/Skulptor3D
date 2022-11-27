@@ -13,6 +13,14 @@
     background-color: rgb(255, 128, 0);
 
 }
+.testing{
+    background-size: cover;
+    margin: 0;
+    height: 35px;
+    display: flex;
+    background-color: rgb(255, 128, 0);
+    
+}
 .Signup:hover{
 
     background-color: rgb(177, 84, 4);
