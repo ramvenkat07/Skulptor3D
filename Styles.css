@@ -13,12 +13,6 @@
     background-color: rgb(255, 128, 0);
 
 }
-.Signup{
-position: relative;
-bottom: 3px;
-    background-color: rgb(216, 102, 3);
-    padding: 4px 0 4px 0;
-}
 .Signup:hover{
 
     background-color: rgb(177, 84, 4);
