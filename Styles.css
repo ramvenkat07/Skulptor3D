@@ -6,7 +6,7 @@
     animation: slide 0.5s;
 }
 .maindiv{
-    width:auto;
+    background-size: cover;
     margin: 0;
     height: 35px;
     display: flex;
