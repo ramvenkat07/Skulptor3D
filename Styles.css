@@ -6,7 +6,7 @@
     animation: slide 0.5s;
 }
 .maindiv{
-    width: 100%;
+    width:auto;
     margin: 0;
     height: 35px;
     display: flex;
@@ -28,7 +28,7 @@ bottom: 3px;
     position: absolute;
     top: 8px;
     margin: 0;
-    padding-left: 49%;
+    padding-left: 50%;
     text-decoration: none;
     list-style: none;
     display:flex;
@@ -39,8 +39,8 @@ bottom: 3px;
 }
 
 .Details ul li{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @keyframes slide{
