@@ -2,6 +2,11 @@ body{
     background-color: rgb(22, 22, 22);
 }
 
+.nav-item{
+
+     margin: 0 1rem;
+}
+
 .Signup{
  margin-top: 3px;
     padding: 0 0;
@@ -15,4 +20,25 @@ body{
 .navbar-brand{
 
      margin-left: 0.3rem;
+}
+
+
+h1{
+    color: rgb(238, 75, 0);
+    font-family: 'Orbitron', sans-serif;
+    line-height: 5rem;
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 7rem 1rem 2rem 2rem;
+    
+}
+
+.ImageModel{
+
+    margin: 5rem 1rem 5rem 0rem;
+}
+
+.buttons-Head{
+
+    margin: 5rem 2rem;
 }
