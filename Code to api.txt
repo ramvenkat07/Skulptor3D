@@ -1,0 +1,51 @@
+// define the API endpoint for calculating the cost of 3D printing
+const API_ENDPOINT = "https://my-3d-printing-api.com/calculate-cost"
+
+// define the input fields for uploading the 3D model and selecting the material
+const inputFile = document.getElementById("input-file")
+const inputMaterial = document.getElementById("input-material")
+
+// define the button for submitting the form
+const btnSubmit = document.getElementById("btn-submit")
+
+// define the output field for displaying the result
+const outputCost = document.getElementById("output-cost")
+
+// handle the form submission
+btnSubmit.addEventListener("click", event => {
+  // prevent the default form submission behavior
+  event.preventDefault()
+
+  // get the selected material from the input field
+  const material = inputMaterial.value
+
+  // get the 3D model file from the input field
+  const file = inputFile.files[0]
+
+  // check if a file was selected
+  if (!file) {
+    alert("Please select a 3D model file to upload.")
+    return
+  }
+
+  // create a new FormData object to send the file and material in the request
+  const formData = new FormData()
+  formData.append("file", file)
+  formData.append("material", material)
+
+  // send a POST request to the API endpoint
+  fetch(API_ENDPOINT, {
+    method: "POST",
+    body: formData
+  })
+    .then(response => response.json()) // parse the JSON response
+    .then(data => {
+      // display the calculated cost in the output field
+      outputCost.innerHTML = `The total cost of the 3D model is $${data.cost}.`
+    })
+    .catch(error => {
+      // handle any errors
+      console.error(error)
+      alert("An error occurred while calculating the cost of the 3D model.")
+    })
+})

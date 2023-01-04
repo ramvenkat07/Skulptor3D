@@ -32,13 +32,43 @@ h1{
     margin: 7rem 1rem 2rem 2rem;
     
 }
-
+.top-section
+{
+  
+    padding: 0 2%;
+    margin-bottom:-1%;
+}
 .ImageModel{
-
-    margin: 5rem 1rem 5rem 0rem;
+    margin-top: 10%;
+    justify-content: center;
 }
 
 .buttons-Head{
 
     margin: 5rem 2rem;
+}
+.second{
+    background-color: aliceblue;
+}
+#QuickMenu
+{
+    color: white;
+    padding: 0% 5% 10%;
+}
+.Features{
+    text-align: center;
+    padding: 5%;
+}
+
+h3
+{
+    font-family:'Orbitron', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.ImageFeature
+{
+    
+    margin-bottom: 1.5rem;
 }
